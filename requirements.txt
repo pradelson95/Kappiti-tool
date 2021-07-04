@@ -1,0 +1,5 @@
+beautifulsoup4==4.9.3
+colorama==0.4.4
+google==3.0.0
+soupsieve==2.2.1
+spanlp==1.1.0

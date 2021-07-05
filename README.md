@@ -5,9 +5,9 @@ Kapiti es una herramienta escrita en python que actúa como un motor de búsqued
 ## installation
 #Clone the repo
 
-- git clone https://github.com/pradelson95/Kapitito-tool.git
+- git clone https://github.com/pradelson95/Kappiti-tool.git
 
-- cd Kapipitito
+- cd Kappiti-tool
 
 - ls
 

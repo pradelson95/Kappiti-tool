@@ -45,7 +45,7 @@ try:
              "vagina", "pene", "sexo"]
 
     for word in words:
-        while word in BuscarEnInternet:
+        if word in BuscarEnInternet:
             print(Fore.LIGHTRED_EX + "ADVERTENCIA: NO SE ACEPTAN BUSQUEDAS EXPLICITAS O CON PALABRAS VULGARES \n")
             sleep(3)
             break

@@ -14,6 +14,8 @@ try:
         print("\033[91m! No puedes realizar busquedas explicitas")
         exit(204)
 
+    if results < 500: print("\033[91mel limite de busquedas es meñor a 500"); exit(204)
+
     for url in search(query=Search, tld="com", stop=results, num=results, verify_ssl=True, lang="es"):
         print(Fore.YELLOW + "enlace: " + url)
         sleep(2)

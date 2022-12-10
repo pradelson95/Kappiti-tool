@@ -1,7 +1,7 @@
 from time import sleep
 from googlesearch import search
 from colorama import Fore
-from baner import *
+from Banner import logo
 
 try:
     Search = input("Que desea buscar?: ")

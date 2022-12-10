@@ -4,6 +4,8 @@ from googlesearch import search
 from colorama import Fore
 from Banner import logo
 
+print(logo)
+
 try:
     Search = input("Que desea buscar?: ")
     results = int(input("Cuantos resultados desea obtener?: "))
@@ -14,7 +16,7 @@ try:
         print("\033[91m! No puedes realizar busquedas explicitas")
         exit(204)
 
-    if results < 500: print("\033[91mel limite de busquedas es meñor a 500"); exit(204)
+    if results > 500: print("\033[91mel limite de busquedas es menor a 500"); exit(204)
 
     for url in search(query=Search, tld="com", stop=results, num=results, verify_ssl=True, lang="es"):
         print(Fore.YELLOW + "enlace: " + url)
